@@ -1,0 +1,31 @@
+Ile to 2+2?
+4
+2
+3
+1
+0
+2+2*2?
+1
+6
+0
+8
+3
+Test question?
+ans a
+ans_b
+correct_c
+ans_d
+2
+Czy CPP jest bez wad?
+Tak
+Nie
+Nie wiem
+Lubie placki
+3
+Obecny administrator forum pasji to:
+Miroslaw_Zelent
+awaluk
+Comandeer
+noname
+1
+
