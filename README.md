@@ -30,3 +30,5 @@ Zapraszam do *pull request'ów* i umieszczania swoich propozycji w wątku na [fo
 1. [odc 11 - Dźwięk w programie. Gra w pamięć](odc-11/)
 
 
+## Dziennik zmian
+1. 21.02.2017 - (shead) Wrzucam poprawiony kod do odcinkow 1-6, jezeli ktos ma dodatkowe uwagi do tych zmian to oczywiscie smialo ;)
