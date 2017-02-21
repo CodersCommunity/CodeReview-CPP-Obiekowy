@@ -12,7 +12,7 @@ Poszczególne odcinki są do podzielone na foldery, wg konwencji: *odc-XX*, gdzi
 Do aplikacji okienkowych użyłem biblioteki [Qt](https://www.qt.io/), która moim zdaniem nadaje się lepiej do demonstacji obiektowego
 C++ i pisania aplikacji okienkowych.
 
-Zapraszam do *pull request'ów* i umieszczania swoich propozycji w wątku na [forum](todo)
+Zapraszam do *pull request'ów* z wlasnymi propozycjami (np na nowych branchach lub w przypadku bledu z mojej strony dorzucania poprawek na **refactor**).
 
 
 ## Spis treści
@@ -28,6 +28,28 @@ Zapraszam do *pull request'ów* i umieszczania swoich propozycji w wątku na [fo
 1. [odc 9 - Tic-tac-toe - gra w kółko i krzyżyk](odc-09/)
 1. [odc 10 - Timery. Własny zegar. Gra Arkanoid](odc-10/)
 1. [odc 11 - Dźwięk w programie. Gra w pamięć](odc-11/)
+
+
+## Uwagi ogolne
+
+### Odcinki 1-6
+
+Ogolnie nie jest zle, jednakze notorycznie powtarzaja sie globalne uzycia `using namespace` co w przypadku wiekszych projektow jest zla praktyka.
+
+Oprocz tego kod lubi byc malo czytelny poprzez np brak odstepow pomiedzy operatorami albo ich nadmierne uzycie.
+
+Nie liczac tych drobnych potkniec potrafia sie znalezc rzeczy typu przkombinowanie rozwiazania lub niestosowanie sie  do oglnie przyjetych konwencji.
+
+...TODO...
+
+
+## Literatura warta uwagi
+
+Na tym etapie nauki warto miec za soba lekture:
+
+1. [C++ Best Practices](https://lefticus.gitbooks.io/cpp-best-practices/content/)
+2. [Czysty Kod](http://lubimyczytac.pl/ksiazka/83492/czysty-kod-podrecznik-dobrego-programisty)
+3. Dowolny *Style Guide*, np. [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 
 ## Dziennik zmian
