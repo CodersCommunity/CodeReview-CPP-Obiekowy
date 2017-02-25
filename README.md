@@ -40,6 +40,18 @@ Oprocz tego kod lubi byc malo czytelny poprzez np brak odstepow pomiedzy operato
 
 Nie liczac tych drobnych potkniec potrafia sie znalezc rzeczy typu przkombinowanie rozwiazania lub niestosowanie sie  do oglnie przyjetych konwencji.
 
+
+### Odcinki 7-8
+
+Implementacje do tych odcinkow zostaly zrealizowane w bibliotece *Qt*, goraco zachecam do przeczytania wpisu: [Dlaczego Qt, a nie Builder](dlaczego-qt.md).
+
+...TODO...
+
+
+### Odcinki 9-11
+
+Implementacje do tych odcinkow zostaly zrealizowane w bibliotece *SFML*, goraco zachecam do przeczytania wpisu: [Dlaczego SFML, a nie Builder](dlaczego-qt.md).
+
 ...TODO...
 
 
@@ -54,3 +66,5 @@ Na tym etapie nauki warto miec za soba lekture:
 
 ## Dziennik zmian
 1. 21.02.2017 - (shead) Wrzucam poprawiony kod do odcinkow 1-6, jezeli ktos ma dodatkowe uwagi do tych zmian to oczywiscie smialo ;)
+2. 25.02.2017 - (shead) Odcinki 7, 8; [artykul](dlaczego-qt.md) wyjasniajacy wybor innych narzerzi niz C++ Builder
+

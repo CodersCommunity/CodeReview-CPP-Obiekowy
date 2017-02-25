@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Notatnik</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="lineWrapMode">
+       <enum>QPlainTextEdit::NoWrap</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlik">
+    <property name="title">
+     <string>&amp;Plik</string>
+    </property>
+    <addaction name="actionOtw_rz"/>
+    <addaction name="separator"/>
+    <addaction name="actionZapisz"/>
+    <addaction name="actionZapisz_jako"/>
+    <addaction name="separator"/>
+    <addaction name="actionWyjd"/>
+   </widget>
+   <widget class="QMenu" name="menuEdytuj">
+    <property name="title">
+     <string>&amp;Edytuj</string>
+    </property>
+    <addaction name="actionWytnij"/>
+    <addaction name="actionKopiuj"/>
+    <addaction name="actionWklej"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>&amp;Pomoc</string>
+    </property>
+    <widget class="QMenu" name="menuInformacje">
+     <property name="title">
+      <string>Informacje</string>
+     </property>
+     <addaction name="actionAutor"/>
+     <addaction name="actionStrona"/>
+    </widget>
+    <addaction name="menuInformacje"/>
+   </widget>
+   <widget class="QMenu" name="menuFormat">
+    <property name="title">
+     <string>&amp;Format</string>
+    </property>
+    <addaction name="actionZawijanie_wierszy"/>
+    <addaction name="actionCzcionka"/>
+   </widget>
+   <addaction name="menuPlik"/>
+   <addaction name="menuEdytuj"/>
+   <addaction name="menuFormat"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionOtw_rz">
+   <property name="text">
+    <string>Otwórz...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionZapisz">
+   <property name="text">
+    <string>Zapisz</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionZapisz_jako">
+   <property name="text">
+    <string>Zapisz jako...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionWyjd">
+   <property name="text">
+    <string>Wyjdź</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionZawijanie_wierszy">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Zawijanie wierszy</string>
+   </property>
+  </action>
+  <action name="actionAutor">
+   <property name="text">
+    <string>Autor</string>
+   </property>
+  </action>
+  <action name="actionStrona">
+   <property name="text">
+    <string>Strona</string>
+   </property>
+  </action>
+  <action name="actionWytnij">
+   <property name="text">
+    <string>Wytnij</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionKopiuj">
+   <property name="text">
+    <string>Kopiuj</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionWklej">
+   <property name="text">
+    <string>Wklej</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionCzcionka">
+   <property name="text">
+    <string>Czcionka</string>
+   </property>
+  </action>
+  <action name="actiontrolo">
+   <property name="text">
+    <string>trolo</string>
+   </property>
+  </action>
+  <action name="actiona">
+   <property name="text">
+    <string>a</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
